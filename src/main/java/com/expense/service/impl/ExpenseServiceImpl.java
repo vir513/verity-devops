@@ -30,7 +30,7 @@ public class ExpenseServiceImpl implements ExpenseService {
 		
 		//Buggy Code(ExpenseServiceTest.saveExpenseTest())
 		expense.setAmount(2000.00);
-		//return expense;
+		return expense;
 		
 		//Correct Code
 		//return expenseRepository.save(expense);
